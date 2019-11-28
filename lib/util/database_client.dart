@@ -8,7 +8,7 @@ import 'package:path/path.dart';
 class DatabaseHelper {
   static final DatabaseHelper _instance = new DatabaseHelper.internal();
 
-   // allow us to cache all of the states of the database helper
+  // allow us to cache all of the states of the database helper
   factory DatabaseHelper() => _instance;
 
   static Database _db;
